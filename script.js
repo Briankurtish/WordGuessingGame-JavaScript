@@ -5,9 +5,10 @@ let wordArray = ["Trap", "Lion", "Cake", "Ship", "Bird", "Blue", "Fish", "Tree",
 "Pine", "Iris", "Jade", "Yarn", "Rust", "Pond", "Ruby", "Sofa", "Swan", "Vine"];
 
 
-// Initialize score variable
+
 let score = localStorage.getItem('score') || 0;
 let tries = localStorage.getItem('tries') || 3;
+
 
 
 
